@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/data-fixtures",
+    "name": "nnx/data-fixtures",
     "type": "library",
     "description": "Data Fixtures for all Doctrine Object Managers",
     "keywords": ["database"],
@@ -35,5 +35,8 @@
         "branch-alias": {
             "dev-master": "1.3.x-dev"
         }
+    },
+    "replace": {
+        "doctrine/data-fixtures":"*"
     }
 }
